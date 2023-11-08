@@ -1,8 +1,10 @@
+# Configure Plex[^1]
+
 ## Download mpv dll
 
-[^1]Be sure to close the Plex App before applying the modifications.
+Be sure to close the Plex App before applying the modifications.
 
-- Go to https://sourceforge.net/projects/mpv-player-windows/files/libmpv/
+- Go to <https://sourceforge.net/projects/mpv-player-windows/files/libmpv/>
   - Click the modified column to sort by newest.
   - Download `mpv-dev-x86_64-v3-{date}-git-{hash}.7z`, where `date` is the most recent date in `YYYYMMDD` format and `hash` is some random hash.
 - Extract the zip to somewhere, and copy the `libmpv-2.dll` file.
@@ -17,4 +19,4 @@ Download Anime4K Shaders from [releases](https://github.com/bloc97/Anime4K/relea
 
 Download and copy the `input.conf` and `mpv.conf` files to `~\AppData\Local\Plex HTPC`
 
-[^1]: https://github.com/Snaacky/thewiki/blob/master/docs/tutorials/plex.md#how-to-modify-the-mpv-player
+[^1]: <https://github.com/Snaacky/thewiki/blob/master/docs/tutorials/plex.md#how-to-modify-the-mpv-player>
