@@ -1,3 +1,6 @@
+# Script written by Harze2k
+# https://forums.plex.tv/t/script-to-automatically-check-update-both-plex-htpc-and-mitzschs-mpv-with-truehd-support/883742
+
 function Get-PlexHTPCFileVersion {
     param (
         [string]$LatestOnlineVersion

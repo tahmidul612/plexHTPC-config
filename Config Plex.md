@@ -1,6 +1,6 @@
 # Configure Plex[^1]
 
-## Download modified mpv dll and update htpc
+## Download modified mpv dll and update htpc[^2]
 
 Run the `update-plex.ps1` script with admin privileges to download the modified mpv dll and update the Plex HTPC installation.
 
@@ -22,3 +22,4 @@ cp .\mpv.conf $env:USERPROFILE\AppData\Local\Plex HTPC
 ```
 
 [^1]: <https://github.com/Snaacky/thewiki/blob/master/docs/tutorials/plex.md#how-to-modify-the-mpv-player>
+[^2]: <https://forums.plex.tv/t/script-to-automatically-check-update-both-plex-htpc-and-mitzschs-mpv-with-truehd-support/883742>
