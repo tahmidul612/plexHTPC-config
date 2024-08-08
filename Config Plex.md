@@ -17,8 +17,8 @@ Download Anime4K Shaders from [releases](https://github.com/bloc97/Anime4K/relea
 Download and copy the `input.conf` and `mpv.conf` files to `$env:USERPROFILE\AppData\Local\Plex HTPC`
 
 ```powershell
-cp .\input.conf '$env:USERPROFILE\AppData\Local\Plex HTPC'
-cp .\mpv.conf '$env:USERPROFILE\AppData\Local\Plex HTPC'
+cp .\input.conf "$env:USERPROFILE\AppData\Local\Plex HTPC"
+cp .\mpv.conf "$env:USERPROFILE\AppData\Local\Plex HTPC"
 ```
 
 [^1]: <https://github.com/Snaacky/thewiki/blob/master/docs/tutorials/plex.md#how-to-modify-the-mpv-player>
