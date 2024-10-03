@@ -10,7 +10,12 @@ sudo ./update-plex.ps1
 
 ## Download Shaders
 
-Download Anime4K Shaders from [releases](https://github.com/bloc97/Anime4K/releases) and put them in `C:\Program Files\Plex\Plex HTPC\shaders` folder.
+Download GLSL Shaders from [Plex-GLSL-Shaders](https://github.com/LitCastVlog/Plex-GLSL-Shaders) and put them in `C:\Program Files\Plex\Plex HTPC\shaders` folder.
+
+```powershell
+git clone https://github.com/LitCastVlog/Plex-GLSL-Shaders.git
+cp -r .\Plex-GLSL-Shaders\shaders\* 'C:\Program Files\Plex\Plex HTPC\shaders'
+```
 
 ## Update mpv configuration
 
