@@ -22,11 +22,11 @@ sudo ./update-plex.ps1
 
 ## Download Shaders
 
-Download GLSL Shaders from [Plex-GLSL-Shaders](https://github.com/LitCastVlog/Plex-GLSL-Shaders) and put them in `C:\Program Files\Plex\Plex HTPC\shaders` folder.
+Download GLSL Shaders from [Plex-GLSL-Shaders](https://github.com/LitCastVlog/Plex-GLSL-Shaders) and put them in `"<appdata\local>\Plex HTPC\shaders"` folder.
 
 ```powershell
 git clone https://github.com/LitCastVlog/Plex-GLSL-Shaders.git
-cp -r .\Plex-GLSL-Shaders\shaders\* 'C:\Program Files\Plex\Plex HTPC\shaders'
+cp -r .\Plex-GLSL-Shaders\shaders "$env:USERPROFILE\AppData\Local\Plex HTPC"
 ```
 
 ## Update mpv configuration
