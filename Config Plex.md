@@ -5,7 +5,8 @@
 
 ## Download modified mpv dll and update htpc
 
-> Script from <https://forums.plex.tv/t/script-to-automatically-check-update-both-plex-htpc-and-mitzschs-mpv-with-truehd-support/883742>
+> Script from <https://github.com/Harze2k/Shared-PowerShell-Functions/blob/main/Update-PlexHTPCWithLatestMPV.ps1>
+> Originally found from <https://forums.plex.tv/t/script-to-automatically-check-update-both-plex-htpc-and-mitzschs-mpv-with-truehd-support/883742>
 
 Clone the `PlexConfig` repository.
 
