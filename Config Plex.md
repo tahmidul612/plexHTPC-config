@@ -43,5 +43,7 @@ Download and copy the `input.conf` and `mpv.conf` files to `$env:USERPROFILE\App
 ```powershell
 cp .\input.conf "$env:USERPROFILE\AppData\Local\Plex HTPC"
 cp .\mpv.conf "$env:USERPROFILE\AppData\Local\Plex HTPC"
+cp .\cycle-denoise.lua "$env:USERPROFILE\AppData\Local\Plex HTPC\scripts"
 ```
+
 <!--end-->
