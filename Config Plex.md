@@ -16,8 +16,11 @@ cd PlexConfig
 
 Run the `update-plex.ps1` script with admin privileges to download the modified mpv dll and update the Plex HTPC installation.
 
+> [!warning]
+> Assuming you have `gsudo` installed. If not, run the update script from a PowerShell prompt with admin privileges.
+
 ```powershell
-sudo ./update-plex.ps1
+gsudo ./update-plex.ps1
 ```
 
 ## Download Shaders
